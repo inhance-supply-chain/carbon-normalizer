@@ -25,9 +25,6 @@ class CarbonDateTimeNormalizer implements NormalizerInterface, DenormalizerInter
     ];
 
     private const SUPPORTED_DENORMALIZATION_TYPES = [
-        \DateTimeInterface::class => true,
-        \DateTimeImmutable::class => true,
-        \DateTime::class => true,
         CarbonImmutable::class => true,
         Carbon::class => true,
         '\Illuminate\Support\Carbon' => true, // Alias for Carbon, added for increased support.
