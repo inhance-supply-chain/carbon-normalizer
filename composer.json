@@ -5,11 +5,11 @@
     "keywords": ["symfony", "serializer", "normalizer", "carbon"],
     "require": {
         "nesbot/carbon": "^2.0",
-        "symfony/serializer": "^5"
+        "symfony/serializer": "^6"
     },
     "require-dev": {
         "phpunit/phpunit": "^9",
-        "illuminate/support": "^8.0"
+        "illuminate/support": "^9.0"
     },
     "license": "MIT",
     "autoload": {
